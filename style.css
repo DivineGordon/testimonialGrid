@@ -1,0 +1,42 @@
+.white-tile{
+    background-color:hsl(0, 0%, 100%) ;
+    color:black;
+}
+body{
+    font-family:'Barlow Semi Condensed',sans-serif;
+    background-color: hsl(210, 46%, 95%);
+}
+.violet-tile{
+  background:   hsl(263, 55%, 52%);
+}
+.tile{
+    padding: 20px;
+    margin:16px;
+    color:white;
+    
+}
+.avatar{
+    float: left;
+    width: 80px;
+    height:80px;
+    border-radius: 40px;
+}
+.avatar img{
+   border-radius: 40px;
+}
+.header{
+    font-size: 25px;
+    font-weight: 600;
+}
+.verified{
+    opacity: 0.5;
+    margin-top: 0px;
+}
+.name{
+    margin-bottom: 0px;
+}
+@media only screen and (min-width:700px){
+    .resp{
+display: flex;
+    }
+}
